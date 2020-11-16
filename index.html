@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SibDev_test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper_nav">
+            <div class="nav_logo">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <p class="logo_text">Beco</p>
+            </div>
+
+
+            <!--Меню иконка выпуклая-->
+            <div class="menu_icon">
+                <img class="icon_img" src="./img/menu_icon.png" alt="menu icon">
+                <img class="burger_menu" src="./img/burger_menu.png" alt="burger menu">
+                <img class="exit_menu" src="./img/exit.png" alt="burger menu">
+            </div>
+            
+            <nav class="navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_list_item">
+                        <img src='./img/catalog.png' ></img>
+                        <p>Каталог</p>
+                    </li>
+                    <li class="navbar_list_item">
+                        <img src='./img/health.png' ></img>
+                        <p>Здоровье</p>
+                    </li>
+                    <li class="navbar_list_item">
+                        <img src='./img/heart.png' ></img>
+                        <p>Красота</p>
+                    </li>
+                    <li class="navbar_list_item active">
+                        <img src='./img/show.png' ></img>
+                        <p>Развлечения</p>
+                    </li>
+                    <li class="navbar_list_item">
+                        <img src='./img/car.png' ></img>
+                        <p>Авто</p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper_content">
+            <div class="wrapper_header">
+                <form class="search-form">
+                    <p class="header_text">Развлечения</p>
+                    <!-- Элемент `input` блока `search-form` -->
+                    <input class="search-form__input" placeholder="Какой магазин вам нужен?">
+                </form>
+            </div>
+            <div class="content">
+                <div class="wrapper_cards">
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">пробка на мира</p>
+                                    <p class="subtitle_card">Вечер для двоих</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">-50%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup1.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">КИНО И НЕМЦЫ</p>
+                                    <p class="subtitle_card">Бесплатный бокал пива</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">ВАРВАР</p>
+                                    <p class="subtitle_discount">Промокод</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup2.png" class="img_card"></img>
+                        </div>
+                    </div>
+                    
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">valery cakes</p>
+                                    <p class="subtitle_card">Торт</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">30%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup3.png" class="img_card"></img>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">sushi sell</p>
+                                    <p class="subtitle_card">Набор “Праздник”</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">45%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup4.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">mangosteen</p>
+                                    <p class="subtitle_card">Фрукт в подарок</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">J130</p>
+                                    <p class="subtitle_discount">Купон</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup5.png" class="img_card"></img>
+                        </div>
+                    </div>
+                    
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">теленок табака</p>
+                                    <p class="subtitle_card">Стейк “Мачете”</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">20%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup6.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">fire food</p>
+                                    <p class="subtitle_card">Вторая шаурма в подарок</p>
+                                    <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">Огонь</p>
+                                    <p class="subtitle_discount">Промокод</p>
+                                </div>
+                            </div>
+                            <img src="img/card_img/cup7.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">aroma cremeria</p>
+                                    <p class="subtitle_card">Джелато “Пармезан”</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">20%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup8.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">пробка на мира</p>
+                                    <p class="subtitle_card">Вечер для двоих</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">-50%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup1.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">КИНО И НЕМЦЫ</p>
+                                    <p class="subtitle_card">Бесплатный бокал пива</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">ВАРВАР</p>
+                                    <p class="subtitle_discount">Промокод</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup2.png" class="img_card"></img>
+                        </div>
+                    </div>
+
+
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">VALERY CAKES</p>
+                                    <p class="subtitle_card">Торт</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">30%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup3.png" class="img_card"></img>
+                        </div>
+                    </div>
+                    
+                    <div class="content_card_wrapper">
+                        <div class="content_card">
+                            <div class="hader-card">
+                                <div class="header-card_top">
+                                    <p class="title_card">sushi sell</p>
+                                    <p class="subtitle_card">Набор “Праздник”</p> <!-- Баг про длинную строку> -->
+                                </div>
+                                <div class="header-card_bottom">
+                                    <p class="sum_discount">45%</p>
+                                    <p class="subtitle_discount">СКИДКА</p>
+                                </div>
+                            </div>
+                            <img src ="img/card_img/cup4.png" class="img_card"></img>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
